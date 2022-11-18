@@ -8,9 +8,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'pages.index')->name('homepage');
 Route::view('/who-we-are', 'pages.who-we-are')->name('who-we-are');
-Route::view('/contact-us', 'pages.contact-us');
-Route::view('/business-banking', 'pages.business-banking');
-Route::view('/business-banking/business-concierge-team', 'pages.business-concierge-team');
+Route::view('/contact-us', 'pages.contact-us')->name('contact-us');
+Route::view('/business-banking', 'pages.business-banking')->name('business-banking');
+Route::view('/business-banking/checking', 'pages.business-checking')->name('business.checking');
 
 
 Route::view('processing-info', 'pages.process-next-of-kin')->name('process_nok');

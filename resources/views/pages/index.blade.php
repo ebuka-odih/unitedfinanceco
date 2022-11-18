@@ -8,7 +8,7 @@
                 <div class="d-flex">
                     <div class="left-banner">
                         <div class="top-links d-flex">
-                            <a class="text-white" href="index.html" target="">BUSINESS BANKING</a>
+                            <a class="text-white" href="{{ route('business-banking') }}" target="">BUSINESS BANKING</a>
                             <a class="text-white" href="home-personal-banking" target="">PERSONAL BANKING</a>
                         </div>
                         <h1 class="text-white">We’re In This Together</h1>
