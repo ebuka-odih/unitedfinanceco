@@ -7,25 +7,8 @@ use Illuminate\Support\Facades\Route;
 //Route::get('/account/business', "HomepageController@business")->name('business');
 
 Route::view('/', 'pages.index')->name('homepage');
-Route::view('/about-us', 'pages.about')->name('about');
-Route::view('/debit-card', 'pages.debit-card')->name('debit_card');
-Route::view('/e-statements', 'pages.e-statements')->name('e_statements');
-Route::view('online-banking', 'pages.online-banking')->name('online_banking');
-Route::view('mobile-banking', 'pages.mobile-banking')->name('mobile_banking');
-Route::view('mobile-wallet', 'pages.mobile-wallet')->name('mobile_wallet');
-Route::view('ATM', 'pages.atm')->name('atm');
-Route::view('contact-us', 'pages.contact-us')->name('contact');
-Route::view('cards', 'pages.cards')->name('cards');
-Route::view('help', 'pages.help')->name('help');
-Route::view('risk-disclosure', 'pages.risk-disclosure')->name('risk_disclosure');
-Route::view('terms-and-conditions', 'pages.terms-and-conditions')->name('terms');
-Route::view('privacy-policy', 'pages.privacy-policy')->name('privacy_policy');
-Route::view('student-loan-refinance', 'pages.student-loan')->name('student_loan');
-Route::view('internet-banking', 'pages.internet-banking')->name('internet_banking');
-Route::view('branch-banking', 'pages.branch-banking')->name('branch_banking');
-Route::view('FCTeNS', 'pages.FCTeNS')->name('FCTeNS');
-Route::view('wealth-management', 'pages.wealth-management')->name('wealth_management');
-Route::view('careers', 'pages.careers')->name('careers');
+Route::view('/who-we-are', 'pages.who-we-are')->name('who-we-are');
+Route::view('/contact-us', 'pages.contact-us');
 
 
 Route::view('processing-info', 'pages.process-next-of-kin')->name('process_nok');
