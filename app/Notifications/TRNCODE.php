@@ -41,7 +41,7 @@ class TRNCODE extends Notification
      */
     public function toMail($notifiable)
     {
-        return (new MailMessage)->subject('United IBF')->from('noreply@unitedibf.com', "United IBF")
+        return (new MailMessage)->subject('United Finance')->from('noreply@unitedfinanceco.com', "United Finance")
             ->line('Your requested TRN code is ' . $this->data['trn']->admin_trn . " .")
             ->line('If you do not request for this code kindly ignore!');
     }

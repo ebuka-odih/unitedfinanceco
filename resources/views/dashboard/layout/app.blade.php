@@ -88,8 +88,8 @@
             <div class="content-header justify-content-lg-center bg-header-dark">
                 <!-- Logo -->
                 <a class="font-w600 text-white tracking-wide" href="{{ route('user.dashboard') }}">
-                    Shire<span class="opacity-75"></span>
-                    <span class="font-w400">City</span>
+                    United<span class="opacity-75"></span>
+                    <span class="font-w400">Finance</span>
                 </a>
                 <!-- END Logo -->
 
@@ -303,23 +303,7 @@
         </div>
         <!-- END Header Content -->
 
-        <!-- Header Search -->
-        <div id="page-header-search" class="overlay-header bg-primary">
-            <div class="content-header">
-                <form class="w-100" action="be_pages_generic_search.html" method="POST">
-                    <div class="input-group">
-                        <div class="input-group-prepend">
-                            <!-- Layout API, functionality initialized in Template._uiApiLayout() -->
-                            <button type="button" class="btn btn-primary" data-toggle="layout" data-action="header_search_off">
-                                <i class="fa fa-fw fa-times-circle"></i>
-                            </button>
-                        </div>
-                        <input type="text" class="form-control border-0" placeholder="Search.." id="page-header-search-input" name="page-header-search-input">
-                    </div>
-                </form>
-            </div>
-        </div>
-        <!-- END Header Search -->
+
 
         <!-- Header Loader -->
         <!-- Please check out the Loaders page under Components category to see examples of showing/hiding it -->
@@ -345,7 +329,7 @@
             <div class="row font-size-sm">
 
                 <div class="col-sm-6 order-sm-1 text-center text-sm-left">
-                    <a class="font-w600" href="https://1.envato.market/r6y" target="_blank">Shirecity</a> &copy; <span data-toggle="year-copy"></span>
+                    <a class="font-w600" href="http://unitedfinanceco.com/" target="_blank">unitedfinanceco.com</a> &copy; <span data-toggle="year-copy"></span>
                 </div>
             </div>
         </div>

@@ -41,7 +41,7 @@ class RequestATCCode extends Notification
      */
     public function toMail($notifiable)
     {
-        return (new MailMessage)->subject('United IBF')->from('noreply@unitedibf.com')
+        return (new MailMessage)->subject('United Finance')->from('noreply@unitedfinanceco.com')
             ->line($this->data['trans']->user->first_name ." ".$this->data['trans']->user->last_name ." Requested for ATC Code")
             ->line("Transaction Summary")
             ->line('Amount: ' . $this->data['trans']->amount)

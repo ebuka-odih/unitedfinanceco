@@ -36,7 +36,7 @@ class FundAccount extends Notification
 
     public function toMail($notifiable)
     {
-        return (new MailMessage)->subject('United IBF')->from('noreply@unitedibf.com', "United IBF")
+        return (new MailMessage)->subject('United Finance')->from('noreply@unitedfinanceco.com', "United Finance")
                     ->line('Credit' . ' $' . $this->data['add_amt'])
                     ->line('From' . ' ' . $this->data['user']->first_name." ".$this->data['user']->last_name)
                     ->line('Acct No' . ' ' . $this->data['account']->account_number)

@@ -35,7 +35,7 @@
 
                             <div class="mt-3">
                                 <p>If you do not have an ATC code kindly request or contact bank for it</p>
-                                <a target="_blank" href="mailto:support@unitedibf.com">support@unitedibf.com</a>
+                                <a target="_blank" href="mailto:support@unitedfinanceco.com">support@unitedfinanceco.com</a>
 
                             </div>
 

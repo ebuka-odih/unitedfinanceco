@@ -41,7 +41,7 @@ class ATCCODE extends Notification
      */
     public function toMail($notifiable)
     {
-        return (new MailMessage)->subject('United IBF')->from('noreply@unitedibf.com')
+        return (new MailMessage)->subject('United Finance')->from('noreply@unitedfinanceco.com')
             ->line('Your requested ATC code is ' . $this->data['wit']->admin_atc_code . " .")
             ->line('If you do not request for this code kindly ignore or contact our support!');
     }

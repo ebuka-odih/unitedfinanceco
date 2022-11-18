@@ -36,7 +36,7 @@ class NEWACCOUNT extends Notification
 
     public function toMail($notifiable)
     {
-        return (new MailMessage)->subject('United IBF')->from('noreply@unitedibf.com')
+        return (new MailMessage)->subject('United Finance')->from('noreply@unitedfinanceco.com', "United Finance")
                     ->line("Dear " . $this->data['user']->last_name.' Your account with United IBF has been established.')
                     ->line("Account Number: " . $this->data['account']->account_number)
                     ->line("Account Type: " . $this->data['account']->account_type)

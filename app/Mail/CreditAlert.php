@@ -35,7 +35,7 @@ class CreditAlert extends Mailable
         $amount =  $this->credit_data['transaction']->amount;
         $transaction_id =  $this->credit_data['transaction']->transaction_id;
 
-        return $this->from('noreply@unitedibf.com', "United IBF")
+        return $this->from('noreply@unitedfinanceco.com', "United IBF")
             ->subject('Credit Alert')
             ->markdown('emails.credit_alert')
             ->with(['credit_data' => $credit_data, 'first_name' => $first_name,

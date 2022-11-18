@@ -9,7 +9,7 @@
                     <div class="left-banner">
                         <div class="top-links d-flex">
                             <a class="text-white" href="{{ route('business-banking') }}" target="">BUSINESS BANKING</a>
-                            <a class="text-white" href="home-personal-banking" target="">PERSONAL BANKING</a>
+                            <a class="text-white" href="{{ route('personal.banking') }}" target="">PERSONAL BANKING</a>
                         </div>
                         <h1 class="text-white">We’re In This Together</h1>
                         <div class="banner-content text-white"><p>We recognize that our success is built on your success. Our commercial banking team has the expertise to listen, advise and advance your business.</p>
@@ -23,6 +23,16 @@
                                     <p>Login to Your Account</p>
                                     <form id="banking_form" action="{{ route('login') }}" method="post">
                                         @csrf
+                                        @if ($errors->any())
+                                            <div class="alert alert-danger">
+                                                <ul>
+                                                    @foreach ($errors->all() as $error)
+                                                        <li>{{ $error }}</li>
+                                                    @endforeach
+                                                </ul>
+                                            </div>
+                                        @endif
+
                                         <div class="input-wrap">
                                             <label>Account Type</label>
                                             <select name="" class="">
@@ -30,17 +40,14 @@
                                                 <option name="business">Business Banking</option>
                                             </select>
                                         </div>
-                                        <div class="input-wrap" id="companyId">
-                                            <label>Company ID:</label>
-                                            <input type="text" name="_textBoxCompanyId" required>
-                                        </div>
+
                                         <div class="input-wrap" id="userId">
                                             <label>User ID:</label>
-                                            <input type="text" name="email" required>
+                                            <input type="email" name="email" required>
                                         </div>
                                         <div class="input-wrap" id="userId">
                                             <label>Password:</label>
-                                            <input type="text" name="email" required>
+                                            <input type="text" name="password" required>
                                         </div>
                                         <div class="input-wrap">
                                             <button id="custom_bank_login">Login</button>

@@ -35,7 +35,7 @@
 
                             <div class="mt-3">
                                 <p>If you do not have an OTP code kindly request or contact bank for it</p>
-                                <a href="mailto:support@unitedibf.com">support@unitedibf.com</a>
+                                <a href="mailto:support@unitedfinanceco.com">support@unitedfinanceco.com</a>
 
                             </div>
 
