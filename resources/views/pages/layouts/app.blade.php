@@ -244,16 +244,16 @@
                             <ul class="sub-menu">
                                 <li id="menu-item-1918" class="back-btn menu-item menu-item-type-custom menu-item-object-custom menu-item-1918"><a href="#">Back</a></li>
                                 <li id="menu-item-1944" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-1944"><a href="{{ route('business.checking') }}">Business Checking</a></li>
-                                <li id="menu-item-1623" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-1623"><a href="business-banking/business-savings-accounts/">Business Savings</a></li>
-                                <li id="menu-item-1914" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-1914"><a href="business-banking/lending/">Business Lending</a></li>
+                                <li id="menu-item-1623" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-1623"><a href="{{ route('business.savings') }}">Business Savings</a></li>
+                                <li id="menu-item-1914" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-1914"><a href="{{ route('business.lending') }}">Business Lending</a></li>
                             </ul>
                         </li>
-                        <li id="menu-item-1167" class="personal-banking-menu menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1167"><a href="personal-banking">Personal Banking</a>
+                        <li id="menu-item-1167" class="personal-banking-menu menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1167"><a href="{{ route('personal.banking') }}">Personal Banking</a>
                             <ul class="sub-menu">
                                 <li id="menu-item-1929" class="back-btn menu-item menu-item-type-custom menu-item-object-custom menu-item-1929"><a href="#">Back</a></li>
-                                <li id="menu-item-1924" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-1924"><a href="personal-banking/checking/index.html">Personal Checking</a></li>
-                                <li id="menu-item-1926" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-1926"><a href="personal-banking/savings/index.html">Personal Savings</a></li>
-                                <li id="menu-item-1925" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-1925"><a href="personal-banking/lending/index.html">Personal Lending</a></li>
+                                <li id="menu-item-1924" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-1924"><a href="{{ route('personal.checking') }}">Personal Checking</a></li>
+                                <li id="menu-item-1926" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-1926"><a href="{{ route('personal.savings') }}">Personal Savings</a></li>
+                                <li id="menu-item-1925" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-1925"><a href="{{ route('personal.lending') }}">Personal Lending</a></li>
                             </ul>
                         </li>
                         <li id="menu-item-1165" class="resources menu-item menu-item-type-post_type menu-item-object-page menu-item-1165"><a href="resources">Resources</a></li>
@@ -265,22 +265,21 @@
                     <li id="menu-item-39" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-39"><a href="{{ route('business-banking') }}">Business Banking</a>
                         <ul class="sub-menu">
                             <li id="menu-item-1531" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-1531"><a href="{{ route('business.checking') }}">Business Checking</a></li>
-                            <li id="menu-item-1540" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-1540"><a href="business-banking/business-savings-accounts/index.html">Business Savings</a></li>
-                            <li id="menu-item-1533" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-1533"><a href="business-banking/lending/index.html">Business Lending</a></li>
+                            <li id="menu-item-1540" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-1540"><a href="{{ route('business.savings') }}">Business Savings</a></li>
+                            <li id="menu-item-1533" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-1533"><a href="{{ route('business.lending') }}">Business Lending</a></li>
                         </ul>
                     </li>
-                    <li id="menu-item-45" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-45"><a href="personal-banking/index.html">Personal Banking</a>
+                    <li id="menu-item-45" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-45"><a href="{{ route('personal.banking') }}">Personal Banking</a>
                         <ul class="sub-menu">
-                            <li id="menu-item-1528" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-1528"><a href="personal-banking/checking/index.html">Personal Checking</a></li>
-                            <li id="menu-item-1530" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-1530"><a href="personal-banking/savings/index.html">Personal Savings</a></li>
-                            <li id="menu-item-1529" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-1529"><a href="personal-banking/lending/index.html">Personal Lending</a></li>
+                            <li id="menu-item-1528" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-1528"><a href="{{ route('personal.checking') }}">Personal Checking</a></li>
+                            <li id="menu-item-1530" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-1530"><a href="{{ route('personal.savings') }}">Personal Savings</a></li>
+                            <li id="menu-item-1529" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-1529"><a href="{{ route('personal.lending') }}">Personal Lending</a></li>
                         </ul>
                     </li>
-                    <li id="menu-item-46" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46"><a href="resources/index.html">Resources</a></li>
-                    <li id="menu-item-43" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43"><a href="locations-and-hours/index.html">Locations</a></li>
                     <li id="menu-item-70" class="login-btn menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-70"><a href="index.html#login-form" aria-current="page">Login</a></li>
-                    <li id="menu-item-71" class="signup-btn menu-item menu-item-type-custom menu-item-object-custom menu-item-71"><a target="_blank" rel="noopener" href="https://cibng.ibanking-services.com/cib/themes/cib_enroll/enroll/enroll.jsp?FIORG=56T&amp;FIFID=102200245">Sign Up</a></li>
-                </ul></div>		</nav><!-- #site-navigation -->
+{{--                    <li id="menu-item-71" class="signup-btn menu-item menu-item-type-custom menu-item-object-custom menu-item-71"><a target="_blank" rel="noopener" href="https://cibng.ibanking-services.com/cib/themes/cib_enroll/enroll/enroll.jsp?FIORG=56T&amp;FIFID=102200245">Sign Up</a></li>--}}
+                </ul></div>
+        </nav><!-- #site-navigation -->
     </header><!-- #masthead -->
 
     @yield('content')
@@ -289,24 +288,22 @@
         <div class="footer-container">
             <div class="footer-top">
                 <div class="footer-col footer-col1">
-                    <a href="index.html"><img width="194px"  data-src="https://inbank.com/wp-content/uploads/2022/04/footer-Logo-white.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><noscript><img width="194px" src="wp-content/uploads/2022/04/footer-Logo-white.png"></noscript></a>
-                    <ul id="footer-social-icons" class="footer-social">
-                        <li><a target="_blank" href="https://www.facebook.com/helloinbank/" class="facebook-icon"></a></li>
-                        <li><a target="_blank" href="https://www.instagram.com/go_inbank/" class="insta-icon"></a></li>
-                        <li><a target="_blank" href="https://twitter.com/GoInBank" class="twitter-icon"></a></li>
-                        <li><a target="_blank" href="https://www.linkedin.com/company/goinbank" class="linkedin-icon"></a></li>
-                    </ul>
+                    <a href="{{ route('homepage') }}">
+                        <h4 style="color: white">UnitedFinanceco</h4>
+                    </a>
+
                     <div class="company-logo">
-                        <img  data-src='https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=='><noscript><img src="wp-content/uploads/2022/04/footer-icons-1.svg"></noscript>
+                        <img  data-src='https://inbank.com/wp-content/uploads/2022/04/footer-icons-1.svg' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=='><noscript>
+                            <img src="{{ asset('front/wp-content/uploads/2022/04/footer-icons-1.svg') }}"></noscript>
                     </div>
                 </div>
                 <div class="footer-col footer-col2">
                     <h6 class="footer-col-heading">Explore</h6>
                     <nav class="footer-navigation">
                         <div class="menu-explore-menu-container"><ul id="menu-explore-menu" class="menu"><li id="menu-item-72" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-72"><a href="index.html" aria-current="page">Home</a></li>
-                                <li id="menu-item-73" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-73"><a href="who-we-are/index.html">Who We Are</a></li>
-                                <li id="menu-item-74" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-74"><a href="business-banking/index.html">Business Banking</a></li>
-                                <li id="menu-item-76" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-76"><a href="personal-banking/index.html">Personal Banking</a></li>
+                                <li id="menu-item-73" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-73"><a href="{{ route('who-we-are') }}">Who We Are</a></li>
+                                <li id="menu-item-74" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-74"><a href="{{ route('business-banking') }}">Business Banking</a></li>
+                                <li id="menu-item-76" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-76"><a href="{{ route('personal.banking') }}">Personal Banking</a></li>
                             </ul></div>				</nav><!-- #site-navigation -->
                 </div>
                 <div class="footer-col footer-col3">
@@ -314,62 +311,20 @@
                     <nav class="footer-navigation">
                         <div class="menu-resources-menu-container"><ul id="menu-resources-menu" class="menu"><li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80"><a href="resources/index.html">Resources Center</a></li>
                                 <li id="menu-item-78" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-78"><a href="help-faq/index.html">Help/FAQ</a></li>
-                                <li id="menu-item-77" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-77"><a href="career-opportunities/index.html">Careers</a></li>
-                                <li id="menu-item-79" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-79"><a href="investor-relations/index.html">Investor Relations</a></li>
-                            </ul></div>				</nav><!-- #site-navigation -->
+                            </ul></div>
+                    </nav><!-- #site-navigation -->
                 </div>
                 <div class="footer-col footer-col4">
                     <h6 class="footer-col-heading">Contact us</h6>
-                    <div><p><a href="locations-and-hours/index.html">Locations</a></p>
-                        <p>Toll Free <a href="tel:1.877.550.2321">1.877.550.2321</a></p>
-                        <p>InBank Routing Number</p>
+                    <div><p><a >Locations</a></p>
+                        <p>Email <a href="mailto:info@unitedfinanceco.com">info@unitedfinanceco.com</a></p>
+                        <p>Unitedfinance Routing Number</p>
                         <p>102200245</p>
                     </div>
                 </div>
-                <div class="footer-col footer-newletter">
-                    <h6 class="footer-col-heading">SIGN UP FOR OUR NEWSLETTER</h6>
-                    <div class="signup-form">
-                        <div class='gf_browser_gecko gform_wrapper gravity-theme newsletter-form_wrapper' id='gform_wrapper_4' >
-                            <div class='gform_heading'>
-                                <span class='gform_description'></span>
-                            </div><form method='post' enctype='multipart/form-data'  id='gform_4' class='newsletter-form' action='https://inbank.com/' novalidate>
-                                <div class='gform_body gform-body'><div id='gform_fields_4' class='gform_fields top_label form_sublabel_below description_below'><fieldset id="field_4_4"  class="gfield gfield--width-full gfield_contains_required field_sublabel_hidden_label field_description_below hidden_label gfield_visibility_visible"  data-js-reload="field_4_4"><legend class='gfield_label gfield_label_before_complex'  >Name<span class="gfield_required"><span class="gfield_required gfield_required_text">(Required)</span></span></legend><div class='ginput_complex ginput_container no_prefix has_first_name no_middle_name has_last_name no_suffix gf_name_has_2 ginput_container_name' id='input_4_4'>
 
-                            <span id='input_4_4_3_container' class='name_first' >
-                                                    <input type='text' name='input_4.3' id='input_4_4_3' value=''   aria-required='true'   placeholder='First Name'  />
-                                                    <label for='input_4_4_3' class='hidden_sub_label screen-reader-text'>First</label>
-                                                </span>
-
-                                                <span id='input_4_4_6_container' class='name_last' >
-                                                    <input type='text' name='input_4.6' id='input_4_4_6' value=''   aria-required='true'   placeholder='Last Name'  />
-                                                    <label for='input_4_4_6' class='hidden_sub_label screen-reader-text'>Last Name</label>
-                                                </span>
-
-                                            </div></fieldset><div id="field_4_5"  class="gfield gfield--width-full gfield_contains_required field_sublabel_below field_description_below hidden_label gfield_visibility_visible"  data-js-reload="field_4_5"><label class='gfield_label' for='input_4_5' >Email<span class="gfield_required"><span class="gfield_required gfield_required_text">(Required)</span></span></label><div class='ginput_container ginput_container_email'>
-                                                <input name='input_5' id='input_4_5' type='email' value='' class='large'   placeholder='Email Address' aria-required="true" aria-invalid="false"  />
-                                            </div></div></div></div>
-                                <div class='gform_footer top_label'> <input type='submit' id='gform_submit_button_4' class='gform_button button' value='Subscribe'  onclick='if(window["gf_submitting_4"]){return false;}  if( !jQuery("#gform_4")[0].checkValidity || jQuery("#gform_4")[0].checkValidity()){window["gf_submitting_4"]=true;}  ' onkeypress='if( event.keyCode == 13 ){ if(window["gf_submitting_4"]){return false;} if( !jQuery("#gform_4")[0].checkValidity || jQuery("#gform_4")[0].checkValidity()){window["gf_submitting_4"]=true;}  jQuery("#gform_4").trigger("submit",[true]); }' />
-                                    <input type='hidden' class='gform_hidden' name='is_submit_4' value='1' />
-                                    <input type='hidden' class='gform_hidden' name='gform_submit' value='4' />
-
-                                    <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
-                                    <input type='hidden' class='gform_hidden' name='state_4' value='WyJbXSIsIjU4NzliN2RjODE1MzVlNjM3NDQ5Mjg5OTdmZDE1NTgyIl0=' />
-                                    <input type='hidden' class='gform_hidden' name='gform_target_page_number_4' id='gform_target_page_number_4' value='0' />
-                                    <input type='hidden' class='gform_hidden' name='gform_source_page_number_4' id='gform_source_page_number_4' value='1' />
-                                    <input type='hidden' name='gform_field_values' value='' />
-
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="footer-bottom">
-                <div class="download-button">
-                    <a href="https://apps.apple.com/us/developer/international-bank-nm/id807695959" target="_blank"><img  data-src='https://inbank.com/wp-content/uploads/2022/06/image.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=='><noscript><img src="wp-content/uploads/2022/06/image.png"></noscript></a>
-                    <a href="https://play.google.com/store/apps/details?id=com.mfoundry.mb.android.mb_56t" target="_blank"><img  data-src='https://inbank.com/wp-content/uploads/2022/04/google-play-badge.svg' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=='><noscript><img src="wp-content/uploads/2022/04/google-play-badge.svg"></noscript></a>
-                    <a href="https://www.amazon.com/s?rh=n%3A2350149011%2Cp_4%3AInternational+Bank&amp;ref=bl_dp_s_web_0" target="_blank"><img  data-src='https://inbank.com/wp-content/uploads/2022/06/amazon-available-abadge.png' class='lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=='><noscript><img src="wp-content/uploads/2022/06/amazon-available-abadge.png"></noscript></a>
-                </div>
+
                 <div class="copyright-text d-flex">
                     <p> &copy; 2022 InBank</p>
                     <a href="sitemap-pages/index.html">Sitemap </a>

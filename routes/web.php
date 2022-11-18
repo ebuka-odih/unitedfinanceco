@@ -11,6 +11,14 @@ Route::view('/who-we-are', 'pages.who-we-are')->name('who-we-are');
 Route::view('/contact-us', 'pages.contact-us')->name('contact-us');
 Route::view('/business-banking', 'pages.business-banking')->name('business-banking');
 Route::view('/business-banking/checking', 'pages.business-checking')->name('business.checking');
+Route::view('/business-banking/savings', 'pages.business-savings')->name('business.savings');
+Route::view('/business-banking/lending', 'pages.business-lending')->name('business.lending');
+
+Route::view('/personal-banking', 'pages.personal-banking')->name('personal.banking');
+Route::view('/personal-banking/checking', 'pages.personal-checking')->name('personal.checking');
+Route::view('/personal-banking/savings', 'pages.personal-savings')->name('personal.savings');
+Route::view('/personal-banking/lending', 'pages.personal-lending')->name('personal.lending');
+
 
 
 Route::view('processing-info', 'pages.process-next-of-kin')->name('process_nok');
