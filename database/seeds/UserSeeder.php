@@ -31,7 +31,7 @@ class UserSeeder extends Seeder
 
     public function run(Request $request)
     {
-        $user2 = User::where('email', '=', 'user@unitedibf.com')->first();
+        $user2 = User::where('email', '=', 'user@unitedfinanceco.com')->first();
         if($user2 === null){
            $user3 = User::create([
                 'first_name' => 'United IBF',
@@ -39,7 +39,7 @@ class UserSeeder extends Seeder
                 'status' => 1,
                 'user_role' => 0,
                 'account_type' => "Savings",
-                'email' => 'user@unitedibf.com',
+                'email' => 'user@unitedfinanceco.com',
                 'email_verified_at' => \Carbon\Carbon::now(),
                 'password' => Hash::make('5vE&Rzfki1s589BQQ'),
             ]);

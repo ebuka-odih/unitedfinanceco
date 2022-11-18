@@ -6,7 +6,7 @@
     <link rel="profile" href="https://gmpg.org/xfn/11">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.29/skrollr.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.min.css">
-    <script type="text/javascript" src="http://cdn.rlets.com/capture_configs/d29/0b8/81e/9be465d9e8e418754401c3e.js" async="async"></script>
+{{--    <script type="text/javascript" src="http://cdn.rlets.com/capture_configs/d29/0b8/81e/9be465d9e8e418754401c3e.js" async="async"></script>--}}
 
     <style type="text/css">
         .heateor_sss_button_instagram span.heateor_sss_svg,a.heateor_sss_instagram span.heateor_sss_svg{background:radial-gradient(circle at 30% 107%,#fdf497 0,#fdf497 5%,#fd5949 45%,#d6249f 60%,#285aeb 90%)}
@@ -81,11 +81,11 @@
     <link rel='dns-prefetch' href='http://cdnjs.cloudflare.com/' />
     <link rel="alternate" type="application/rss+xml" title="InBank &raquo; Feed" href="feed/index.html" />
     <link rel="alternate" type="application/rss+xml" title="InBank &raquo; Comments Feed" href="comments/feed/index.html" />
-    <script>
-        window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/inbank.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.1"}};
-        /*! This file is auto-generated */
-        !function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode,e=(p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0),i.toDataURL());return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(p&&p.fillText)switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([129777,127995,8205,129778,127999],[129777,127995,8203,129778,127999])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
-    </script>
+{{--    <script>--}}
+{{--        window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/inbank.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.1"}};--}}
+{{--        /*! This file is auto-generated */--}}
+{{--        !function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode,e=(p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0),i.toDataURL());return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(p&&p.fillText)switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([129777,127995,8205,129778,127999],[129777,127995,8203,129778,127999])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);--}}
+{{--    </script>--}}
     <style>
         img.wp-smiley,
         img.emoji {
@@ -142,7 +142,6 @@
     <link rel='shortlink' href='index.html' />
     <link rel="alternate" type="application/json+oembed" href="{{ asset('front/wp-json/oembed/1.0/embed6c67.json?url=https%3A%2F%2Finbank.com%2F') }}" />
     <link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embedaea4?url=https%3A%2F%2Finbank.com%2F&amp;format=xml" />
-    <script>(function(w, d) { w.CollectId = "5fa99aefef40650f0ca28c6f"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.async=true; s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script><script type="text/javascript">var CollectChatWordpress = true;</script>
     <script>
         document.documentElement.className = document.documentElement.className.replace( 'no-js', 'js' );
     </script>
@@ -242,20 +241,17 @@
                                     <ul id="menu-mobile-menu-1" class="menu">
 
                         <li id="menu-item-1169" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1169"><a href="{{ asset('who-we-are') }}">Who We Are</a></li>
-                        <li id="menu-item-1168" class="business-banking-menu menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1168"><a href="business-banking/index.html">Business Banking</a>
+                        <li id="menu-item-1168" class="business-banking-menu menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1168"><a href="business-banking">Business Banking</a>
                             <ul class="sub-menu">
                                 <li id="menu-item-1918" class="back-btn menu-item menu-item-type-custom menu-item-object-custom menu-item-1918"><a href="#">Back</a></li>
-                                <li id="menu-item-1625" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-1625"><a href="business-banking/business-concierge-team/index.html">Business Concierge Experience</a></li>
-                                <li id="menu-item-1944" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-1944"><a href="business-banking/checking/index.html">Business Checking</a></li>
-                                <li id="menu-item-1623" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-1623"><a href="business-banking/business-savings-accounts/index.html">Business Savings</a></li>
-                                <li id="menu-item-1913" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-1913"><a href="business-banking/credit-cards/index.html">Business Credit Cards</a></li>
-                                <li id="menu-item-1915" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-1915"><a href="business-banking/inpayables/index.html">InPayables</a></li>
-                                <li id="menu-item-1914" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-1914"><a href="business-banking/lending/index.html">Business Lending</a></li>
-                                <li id="menu-item-1916" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-1916"><a href="business-banking/merchant-services/index.html">Merchant Services</a></li>
-                                <li id="menu-item-1917" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-1917"><a href="business-banking/treasury-management/index.html">Treasury Management</a></li>
+                                <li id="menu-item-1625" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-1625"><a href="business-banking/business-concierge-team/">Business Concierge Experience</a></li>
+                                <li id="menu-item-1944" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-1944"><a href="business-banking/checking/">Business Checking</a></li>
+                                <li id="menu-item-1623" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-1623"><a href="business-banking/business-savings-accounts/">Business Savings</a></li>
+                                <li id="menu-item-1914" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-1914"><a href="business-banking/lending/">Business Lending</a></li>
+                                <li id="menu-item-1917" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-1917"><a href="business-banking/treasury-management/">Treasury Management</a></li>
                             </ul>
                         </li>
-                        <li id="menu-item-1167" class="personal-banking-menu menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1167"><a href="personal-banking/index.html">Personal Banking</a>
+                        <li id="menu-item-1167" class="personal-banking-menu menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1167"><a href="personal-banking">Personal Banking</a>
                             <ul class="sub-menu">
                                 <li id="menu-item-1929" class="back-btn menu-item menu-item-type-custom menu-item-object-custom menu-item-1929"><a href="#">Back</a></li>
                                 <li id="menu-item-1924" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-1924"><a href="personal-banking/checking/index.html">Personal Checking</a></li>
@@ -410,55 +406,49 @@
         //jQuery.cookie("afc_clicked","");
 
     });</script><!-- Instagram Feed JS -->
-<script type="text/javascript">
-    var sbiajaxurl = "wp-admin/admin-ajax.html";
-</script>
-<link rel='stylesheet' id='gform_basic-css' href='wp-content/plugins/gravityforms/assets/css/dist/basic.min91ac.css?ver=2.6.8' media='all' />
-<link rel='stylesheet' id='gform_theme_components-css' href='wp-content/plugins/gravityforms/assets/css/dist/theme-components.min91ac.css?ver=2.6.8' media='all' />
-<link rel='stylesheet' id='gform_theme_ie11-css' href='wp-content/plugins/gravityforms/assets/css/dist/theme-ie11.min91ac.css?ver=2.6.8' media='all' />
-<link rel='stylesheet' id='gform_theme-css' href='wp-content/plugins/gravityforms/assets/css/dist/theme.min91ac.css?ver=2.6.8' media='all' />
-<script src='wp-content/themes/inbank/js/navigation8a54.js?ver=1.0.0' id='inbank-navigation-js'></script>
-<script id='heateor_sss_sharing_js-js-before'>
-    function heateorSssLoadEvent(e) {var t=window.onload;if (typeof window.onload!="function") {window.onload=e}else{window.onload=function() {t();e()}}};	var heateorSssSharingAjaxUrl = 'wp-admin/admin-ajax.html', heateorSssCloseIconPath = 'wp-content/plugins/sassy-social-share/images/close.png', heateorSssPluginIconPath = 'wp-content/plugins/sassy-social-share/images/logo.png', heateorSssHorizontalSharingCountEnable = 0, heateorSssVerticalSharingCountEnable = 0, heateorSssSharingOffset = -10; var heateorSssMobileStickySharingEnabled = 0;var heateorSssCopyLinkMessage = "Link copied.";var heateorSssUrlCountFetched = [], heateorSssSharesText = 'Shares', heateorSssShareText = 'Share';function heateorSssPopup(e) {window.open(e,"popUpWindow","height=400,width=600,left=400,top=100,resizable,scrollbars,toolbar=0,personalbar=0,menubar=no,location=no,directories=no,status")}
-</script>
-<script src='wp-content/plugins/sassy-social-share/public/js/sassy-social-share-public0e68.js?ver=3.3.43' id='heateor_sss_sharing_js-js'></script>
-<script src='wp-content/plugins/wp-smushit/app/assets/js/smush-lazy-load.min0fca.js?ver=3.12.3' id='smush-lazy-load-js'></script>
+{{--<script type="text/javascript">--}}
+{{--    var sbiajaxurl = "wp-admin/admin-ajax.html";--}}
+{{--</script>--}}
+<link rel='stylesheet' id='gform_basic-css' href='{{ asset('front/wp-content/plugins/gravityforms/assets/css/dist/basic.min91ac.css?ver=2.6.8') }}' media='all' />
+<link rel='stylesheet' id='gform_theme_components-css' href='{{ asset('front/wp-content/plugins/gravityforms/assets/css/dist/theme-components.min91ac.css?ver=2.6.8') }}' media='all' />
+<link rel='stylesheet' id='gform_theme_ie11-css' href='{{ asset('front/wp-content/plugins/gravityforms/assets/css/dist/theme-ie11.min91ac.css?ver=2.6.8') }}' media='all' />
+<link rel='stylesheet' id='gform_theme-css' href='{{ asset('front/wp-content/plugins/gravityforms/assets/css/dist/theme.min91ac.css?ver=2.6.8') }}' media='all' />
+<script src='{{ asset('front/wp-content/themes/inbank/js/navigation8a54.js?ver=1.0.0') }}' id='inbank-navigation-js'></script>
+{{--<script id='heateor_sss_sharing_js-js-before'>--}}
+{{--    function heateorSssLoadEvent(e) {var t=window.onload;if (typeof window.onload!="function") {window.onload=e}else{window.onload=function() {t();e()}}};	var heateorSssSharingAjaxUrl = 'wp-admin/admin-ajax.html', heateorSssCloseIconPath = 'wp-content/plugins/sassy-social-share/images/close.png', heateorSssPluginIconPath = 'wp-content/plugins/sassy-social-share/images/logo.png', heateorSssHorizontalSharingCountEnable = 0, heateorSssVerticalSharingCountEnable = 0, heateorSssSharingOffset = -10; var heateorSssMobileStickySharingEnabled = 0;var heateorSssCopyLinkMessage = "Link copied.";var heateorSssUrlCountFetched = [], heateorSssSharesText = 'Shares', heateorSssShareText = 'Share';function heateorSssPopup(e) {window.open(e,"popUpWindow","height=400,width=600,left=400,top=100,resizable,scrollbars,toolbar=0,personalbar=0,menubar=no,location=no,directories=no,status")}--}}
+{{--</script>--}}
+<script src='{{ asset('front/wp-content/plugins/sassy-social-share/public/js/sassy-social-share-public0e68.js?ver=3.3.43') }}' id='heateor_sss_sharing_js-js'></script>
+<script src='{{ asset('front/wp-content/plugins/wp-smushit/app/assets/js/smush-lazy-load.min0fca.js?ver=3.12.3') }}' id='smush-lazy-load-js'></script>
 <script src='https://cdn.onesignal.com/sdks/OneSignalSDK.js?ver=6.1' async='async' id='remote_sdk-js'></script>
-<script src='wp-includes/js/dist/vendor/regenerator-runtime.min3937.js?ver=0.13.9' id='regenerator-runtime-js'></script>
-<script src='wp-includes/js/dist/vendor/wp-polyfill.min2c7c.js?ver=3.15.0' id='wp-polyfill-js'></script>
-<script src='wp-includes/js/dist/dom-ready.minded6.js?ver=392bdd43726760d1f3ca' id='wp-dom-ready-js'></script>
-<script src='wp-includes/js/dist/hooks.min6c65.js?ver=4169d3cf8e8d95a3d6d5' id='wp-hooks-js'></script>
-<script src='wp-includes/js/dist/i18n.mine57b.js?ver=9e794f35a71bb98672ae' id='wp-i18n-js'></script>
+<script src='{{ asset('front/wp-includes/js/dist/vendor/regenerator-runtime.min3937.js?ver=0.13.9') }}' id='regenerator-runtime-js'></script>
+<script src='{{ asset('front/wp-includes/js/dist/vendor/wp-polyfill.min2c7c.js?ver=3.15.0') }}' id='wp-polyfill-js'></script>
+<script src='{{ asset('front/wp-includes/js/dist/dom-ready.minded6.js?ver=392bdd43726760d1f3ca') }}' id='wp-dom-ready-js'></script>
+<script src='{{ asset('front/wp-includes/js/dist/hooks.min6c65.js?ver=4169d3cf8e8d95a3d6d5') }}' id='wp-hooks-js'></script>
+<script src='{{ asset('front/wp-includes/js/dist/i18n.mine57b.js?ver=9e794f35a71bb98672ae') }}' id='wp-i18n-js'></script>
 <script id='wp-i18n-js-after'>
     wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
 </script>
 <script src='wp-includes/js/dist/a11y.min65c7.js?ver=ecce20f002eda4c19664' id='wp-a11y-js'></script>
 <script defer='defer' src='wp-content/plugins/gravityforms/js/jquery.json.min91ac.js?ver=2.6.8' id='gform_json-js'></script>
-<script id='gform_gravityforms-js-extra'>
-    var gform_i18n = {"datepicker":{"days":{"monday":"Mon","tuesday":"Tue","wednesday":"Wed","thursday":"Thu","friday":"Fri","saturday":"Sat","sunday":"Sun"},"months":{"january":"January","february":"February","march":"March","april":"April","may":"May","june":"June","july":"July","august":"August","september":"September","october":"October","november":"November","december":"December"},"firstDay":1,"iconText":"Select date"}};
-    var gf_legacy_multi = [];
-    var gform_gravityforms = {"strings":{"invalid_file_extension":"This type of file is not allowed. Must be one of the following:","delete_file":"Delete this file","in_progress":"in progress","file_exceeds_limit":"File exceeds size limit","illegal_extension":"This type of file is not allowed.","max_reached":"Maximum number of files reached","unknown_error":"There was a problem while saving the file on the server","currently_uploading":"Please wait for the uploading to complete","cancel":"Cancel","cancel_upload":"Cancel this upload","cancelled":"Cancelled"},"vars":{"images_url":"https:\/\/inbank.com\/wp-content\/plugins\/gravityforms\/images"}};
-    var gf_global = {"gf_currency_config":{"name":"U.S. Dollar","symbol_left":"$","symbol_right":"","symbol_padding":"","thousand_separator":",","decimal_separator":".","decimals":2,"code":"USD"},"base_url":"https:\/\/inbank.com\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"https:\/\/inbank.com\/wp-content\/plugins\/gravityforms\/images\/spinner.svg","strings":{"newRowAdded":"New row added.","rowRemoved":"Row removed","formSaved":"The form has been saved.  The content contains the link to return and complete the form."}};
-    var gf_global = {"gf_currency_config":{"name":"U.S. Dollar","symbol_left":"$","symbol_right":"","symbol_padding":"","thousand_separator":",","decimal_separator":".","decimals":2,"code":"USD"},"base_url":"https:\/\/inbank.com\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"https:\/\/inbank.com\/wp-content\/plugins\/gravityforms\/images\/spinner.svg","strings":{"newRowAdded":"New row added.","rowRemoved":"Row removed","formSaved":"The form has been saved.  The content contains the link to return and complete the form."}};
-</script>
+
 <script defer='defer' src='wp-content/plugins/gravityforms/js/gravityforms.min91ac.js?ver=2.6.8' id='gform_gravityforms-js'></script>
 <script defer='defer' src='wp-content/plugins/gravityforms/js/placeholders.jquery.min91ac.js?ver=2.6.8' id='gform_placeholder-js'></script>
-<script>
-    gform.initializeOnLoaded( function() { jQuery(document).on('gform_post_render', function(event, formId, currentPage){if(formId == 1) {if(typeof Placeholders != 'undefined'){
-        Placeholders.enable();
-    }} } );jQuery(document).bind('gform_post_conditional_logic', function(event, formId, fields, isInit){} ) } );
-</script>
-<script>
-    gform.initializeOnLoaded( function() { jQuery(document).trigger('gform_post_render', [1, 1]) } );
-</script>
-<script>
-    gform.initializeOnLoaded( function() { jQuery(document).on('gform_post_render', function(event, formId, currentPage){if(formId == 4) {if(typeof Placeholders != 'undefined'){
-        Placeholders.enable();
-    }} } );jQuery(document).bind('gform_post_conditional_logic', function(event, formId, fields, isInit){} ) } );
-</script>
-<script>
-    gform.initializeOnLoaded( function() { jQuery(document).trigger('gform_post_render', [4, 1]) } );
-</script>
+{{--<script>--}}
+{{--    gform.initializeOnLoaded( function() { jQuery(document).on('gform_post_render', function(event, formId, currentPage){if(formId == 1) {if(typeof Placeholders != 'undefined'){--}}
+{{--        Placeholders.enable();--}}
+{{--    }} } );jQuery(document).bind('gform_post_conditional_logic', function(event, formId, fields, isInit){} ) } );--}}
+{{--</script>--}}
+{{--<script>--}}
+{{--    gform.initializeOnLoaded( function() { jQuery(document).trigger('gform_post_render', [1, 1]) } );--}}
+{{--</script>--}}
+{{--<script>--}}
+{{--    gform.initializeOnLoaded( function() { jQuery(document).on('gform_post_render', function(event, formId, currentPage){if(formId == 4) {if(typeof Placeholders != 'undefined'){--}}
+{{--        Placeholders.enable();--}}
+{{--    }} } );jQuery(document).bind('gform_post_conditional_logic', function(event, formId, fields, isInit){} ) } );--}}
+{{--</script>--}}
+{{--<script>--}}
+{{--    gform.initializeOnLoaded( function() { jQuery(document).trigger('gform_post_render', [4, 1]) } );--}}
+{{--</script>--}}
 
 </script>
 </body>
