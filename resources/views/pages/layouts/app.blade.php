@@ -227,7 +227,7 @@
     <header id="masthead" class="site-header main-header">
         <div class="site-branding">
             <a href="{{ route('homepage') }}" class="custom-logo-link" rel="home" aria-current="page">
-                <h3 style="color: black">UnitedFinanceco</h3>
+                <h3 style="color: black">UnitedFinance</h3>
 
             </a>
         </div><!-- .site-branding -->
@@ -276,7 +276,7 @@
                             <li id="menu-item-1529" class="menu-item menu-item-type-post_type menu-item-object-services menu-item-1529"><a href="{{ route('personal.lending') }}">Personal Lending</a></li>
                         </ul>
                     </li>
-                    <li id="menu-item-70" class="login-btn menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-70"><a href="index.html#login-form" aria-current="page">Login</a></li>
+                    <li id="menu-item-70" class="login-btn menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-70"><a href="{{ route('login') }}" aria-current="page">Login</a></li>
 {{--                    <li id="menu-item-71" class="signup-btn menu-item menu-item-type-custom menu-item-object-custom menu-item-71"><a target="_blank" rel="noopener" href="https://cibng.ibanking-services.com/cib/themes/cib_enroll/enroll/enroll.jsp?FIORG=56T&amp;FIFID=102200245">Sign Up</a></li>--}}
                 </ul></div>
         </nav><!-- #site-navigation -->
@@ -289,7 +289,7 @@
             <div class="footer-top">
                 <div class="footer-col footer-col1">
                     <a href="{{ route('homepage') }}">
-                        <h4 style="color: white">UnitedFinanceco</h4>
+                        <h4 style="color: white">UnitedFinance</h4>
                     </a>
 
                     <div class="company-logo">
