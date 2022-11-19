@@ -3,7 +3,7 @@
 
 
     <main id="primary" class="site-main">
-        <section class="home-banner banner-overlay active-home " style="background-image: url(wp-content/uploads/2022/04/background-image.png);background-repeat: no-repeat;background-size: cover;background-position: center;">
+        <section class="home-banner banner-overlay active-home " style="background-image: url(front/wp-content/uploads/2022/04/background-image.png);background-repeat: no-repeat;background-size: cover;background-position: center;">
             <div class="container">
                 <div class="d-flex">
                     <div class="left-banner">
@@ -27,19 +27,19 @@
                                             <div class="alert alert-danger">
                                                 <ul>
                                                     @foreach ($errors->all() as $error)
-                                                        <li>{{ $error }}</li>
+                                                        <li style="color: blue">{{ $error }}</li>
                                                     @endforeach
                                                 </ul>
                                             </div>
                                         @endif
 
-                                        <div class="input-wrap">
-                                            <label>Account Type</label>
-                                            <select name="" class="">
-                                                <option name="personal">Personal Banking</option>
-                                                <option name="business">Business Banking</option>
-                                            </select>
-                                        </div>
+{{--                                        <div class="input-wrap">--}}
+{{--                                            <label>Account Type</label>--}}
+{{--                                            <select name="" class="">--}}
+{{--                                                <option name="personal">Personal Banking</option>--}}
+{{--                                                <option name="business">Business Banking</option>--}}
+{{--                                            </select>--}}
+{{--                                        </div>--}}
 
                                         <div class="input-wrap" id="userId">
                                             <label>User ID:</label>
@@ -47,7 +47,7 @@
                                         </div>
                                         <div class="input-wrap" id="userId">
                                             <label>Password:</label>
-                                            <input type="text" name="password" required>
+                                            <input type="password" name="password" required>
                                         </div>
                                         <div class="input-wrap">
                                             <button id="custom_bank_login">Login</button>
