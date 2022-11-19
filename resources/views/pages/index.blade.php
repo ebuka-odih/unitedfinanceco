@@ -57,7 +57,7 @@
                                                 <input type="checkbox" name="remember-me">
                                                 <label>Remember Me</label>
                                             </div>
-                                            <a href="https://cibng.ibanking-services.com/cib/themes/cib_enroll/enroll/enroll.jsp?FIORG=56T&amp;FIFID=102200245" target="_blank">SIGN UP</a>
+                                            <a href="{{ route('register') }}" target="_blank">SIGN UP</a>
                                         </div>
                                     </form>
                                 </div>                    </div>
